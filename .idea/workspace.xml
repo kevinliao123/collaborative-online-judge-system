@@ -33,8 +33,8 @@
       <change afterPath="$PROJECT_DIR$/week1/oj-client/src/tslint.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week1/oj-client/tsconfig.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week1/oj-client/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week2/oj-client/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/week2/oj-client/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week2/oj-client/README.md" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week2/oj-client/angular.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week2/oj-client/e2e/protractor.conf.js" afterDir="false" />
@@ -64,6 +64,16 @@
       <change afterPath="$PROJECT_DIR$/week2/oj-client/src/tslint.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week2/oj-client/tsconfig.json" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/week2/oj-client/tslint.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/oj-server/models/problemModel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/oj-server/routes/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/oj-server/routes/rest.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/oj-server/server.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/week2/oj-server/services/problemService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/oj-client/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/oj-client/src/app/components/problem-detail/problem-detail.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week2/oj-client/src/app/components/problem-detail/problem-detail.component.ts" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.ts" beforeDir="false" afterPath="$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.ts" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -84,18 +94,22 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="css" value="1" />
-          <entry key="html" value="4" />
-          <entry key="json" value="1" />
-          <entry key="ts" value="6" />
+          <entry key="css" value="4" />
+          <entry key="gitignore" value="3" />
+          <entry key="html" value="9" />
+          <entry key="js" value="10" />
+          <entry key="json" value="9" />
+          <entry key="ts" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="CSS" value="1" />
-          <entry key="HTML" value="4" />
-          <entry key="JSON" value="1" />
-          <entry key="TypeScript" value="6" />
+          <entry key="CSS" value="4" />
+          <entry key="HTML" value="9" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="10" />
+          <entry key="PLAIN_TEXT" value="3" />
+          <entry key="TypeScript" value="33" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.js.language.service.starts">
@@ -106,14 +120,20 @@
       <usages-collector id="statistics.vcs.git.usages" />
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="html" value="945" />
-          <entry key="ts" value="494" />
+          <entry key="gitignore" value="27" />
+          <entry key="html" value="968" />
+          <entry key="js" value="2450" />
+          <entry key="json" value="9" />
+          <entry key="ts" value="1360" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="HTML" value="945" />
-          <entry key="TypeScript" value="494" />
+          <entry key="HTML" value="968" />
+          <entry key="JSON" value="9" />
+          <entry key="JavaScript" value="2450" />
+          <entry key="PLAIN_TEXT" value="27" />
+          <entry key="TypeScript" value="1360" />
         </counts>
       </usages-collector>
     </session>
@@ -121,13 +141,37 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.ts">
+        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
-              <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-              <folding>
-                <element signature="e#0#48#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="45">
+              <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/problem-detail/problem-detail.component.ts">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2/oj-server/routes/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/week2/oj-server/server.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="150">
+              <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -135,56 +179,26 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+            <state>
+              <caret selection-end-line="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/app.component.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="15">
-              <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/navbar/navbar.component.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="390">
-              <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+            <state relative-caret-position="75">
+              <caret line="14" column="38" selection-end-line="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/navbar/navbar.component.ts">
+        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="135">
-              <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/models/problem.model.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/app.module.ts">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="300">
-              <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
-              <folding>
-                <element signature="e#0#58#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="150">
+              <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="28" />
             </state>
           </provider>
         </entry>
@@ -193,7 +207,16 @@
         <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="15">
-              <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+              <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/app.component.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
             </state>
           </provider>
         </entry>
@@ -205,6 +228,16 @@
       </file>
     </leaf>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>node_module</find>
+      <find>on port</find>
+      <find>app</find>
+      <find>outDir</find>
+      <find>outputPath</find>
+      <find>router-outlet</find>
+    </findStrings>
+  </component>
   <component name="Git.Settings">
     <option name="ROOT_SYNC" value="SYNC" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/week2/oj-client" />
@@ -214,13 +247,22 @@
       <list>
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.html" />
-        <option value="$PROJECT_DIR$/week2/oj-client/src/app/services/data.service.ts" />
         <option value="$PROJECT_DIR$/week2/oj-client/src/app/app.module.ts" />
-        <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.html" />
-        <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.ts" />
-        <option value="$PROJECT_DIR$/week2/oj-client/src/app/app.component.html" />
         <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/navbar/navbar.component.ts" />
+        <option value="$PROJECT_DIR$/week2/oj-server/models/problemModel.js" />
+        <option value="$PROJECT_DIR$/week2/oj-server/routes/rest.js" />
+        <option value="$PROJECT_DIR$/week2/oj-server/services/problemService.js" />
+        <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.ts" />
+        <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/problem-detail/problem-detail.component.ts" />
+        <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.ts" />
+        <option value="$PROJECT_DIR$/week2/oj-server/server.js" />
+        <option value="$PROJECT_DIR$/week2/.gitignore" />
+        <option value="$PROJECT_DIR$/week2/oj-client/angular.json" />
+        <option value="$PROJECT_DIR$/week2/oj-server/routes/index.js" />
+        <option value="$PROJECT_DIR$/week2/oj-client/src/app/services/data.service.ts" />
+        <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.html" />
         <option value="$PROJECT_DIR$/week2/oj-client/src/app/components/navbar/navbar.component.html" />
+        <option value="$PROJECT_DIR$/week2/oj-client/src/app/app.component.html" />
       </list>
     </option>
   </component>
@@ -233,6 +275,7 @@
   <component name="NodeModulesDirectoryManager">
     <handled-path value="$PROJECT_DIR$/week1/oj-client/node_modules" />
     <handled-path value="$PROJECT_DIR$/week2/oj-client/node_modules" />
+    <handled-path value="$PROJECT_DIR$/week2/oj-server/node_modules" />
   </component>
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths>
@@ -2524,6 +2567,7 @@
       <path value="$PROJECT_DIR$/week2/oj-client/node_modules/yn/package.json" />
       <path value="$PROJECT_DIR$/week2/oj-client/node_modules/zone.js/package.json" />
       <path value="$PROJECT_DIR$/week2/oj-client/package.json" />
+      <path value="$PROJECT_DIR$/week2/oj-server/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
@@ -2531,6 +2575,9 @@
     <option name="y" value="25" />
     <option name="width" value="1373" />
     <option name="height" value="735" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
   </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -2607,34 +2654,26 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="app" type="462c0819:PsiDirectoryNode" />
               <item name="components" type="462c0819:PsiDirectoryNode" />
-              <item name="problem-detail" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="full-stack-course" type="b2602c69:ProjectViewProjectNode" />
-              <item name="full-stack-course" type="462c0819:PsiDirectoryNode" />
-              <item name="week2" type="462c0819:PsiDirectoryNode" />
-              <item name="oj-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="components" type="462c0819:PsiDirectoryNode" />
               <item name="problem-list" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="full-stack-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="full-stack-course" type="462c0819:PsiDirectoryNode" />
               <item name="week2" type="462c0819:PsiDirectoryNode" />
-              <item name="oj-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
-              <item name="models" type="462c0819:PsiDirectoryNode" />
+              <item name="oj-server" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="full-stack-course" type="b2602c69:ProjectViewProjectNode" />
               <item name="full-stack-course" type="462c0819:PsiDirectoryNode" />
               <item name="week2" type="462c0819:PsiDirectoryNode" />
-              <item name="oj-client" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="app" type="462c0819:PsiDirectoryNode" />
+              <item name="oj-server" type="462c0819:PsiDirectoryNode" />
+              <item name="routes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="full-stack-course" type="b2602c69:ProjectViewProjectNode" />
+              <item name="full-stack-course" type="462c0819:PsiDirectoryNode" />
+              <item name="week2" type="462c0819:PsiDirectoryNode" />
+              <item name="oj-server" type="462c0819:PsiDirectoryNode" />
               <item name="services" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -2645,9 +2684,17 @@
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="SearchEverywhereHistoryKey" value="angular-&#9;FILE&#9;file:///home/kevin/Project/full-stack-course/week2/oj-client/node_modules/@angular-devkit/build-angular/src/angular-cli-files" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="ts.external.directory.path" value="$PROJECT_DIR$/week2/oj-client/node_modules/typescript/lib" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/week2" />
+    </key>
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -2671,27 +2718,27 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1538333270352</updated>
-      <workItem from="1538333274167" duration="9299000" />
+      <workItem from="1538333274167" duration="284624000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="9299000" />
+    <option name="totallyTimeSpent" value="284624000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="67" y="25" width="1373" height="732" extended-state="6" />
+    <frame x="67" y="25" width="1365" height="729" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3214815" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32116243" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="TypeScript" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32888147" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" weight="0.3289256" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32888147" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -2701,6 +2748,26 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Favorites" order="0" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="1" visible="true" weight="0.3214815" />
+      <window_info id="Structure" order="2" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Docker" order="0" show_stripe_button="false" />
+      <window_info anchor="bottom" id="TypeScript" order="1" />
+      <window_info anchor="bottom" id="Terminal" order="2" />
+      <window_info anchor="bottom" id="Event Log" order="3" side_tool="true" weight="0.3289256" />
+      <window_info anchor="bottom" id="Version Control" order="4" />
+      <window_info anchor="bottom" id="Message" order="5" />
+      <window_info anchor="bottom" id="Find" order="6" />
+      <window_info anchor="bottom" id="Run" order="7" />
+      <window_info anchor="bottom" id="Debug" order="8" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="9" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="10" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="11" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -2715,13 +2782,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/.gitignore">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="6" selection-start-column="6" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/app.module.ts">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -2732,26 +2792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.css">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/services/data.service.ts">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="21" column="32" selection-start-line="21" selection-start-column="32" selection-end-line="21" selection-end-column="32" />
-          <folding>
-            <element signature="e#0#43#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="15">
-          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/@angular/common/common.metadata.json">
       <provider selected="true" editor-type-id="text-editor">
         <state>
@@ -2759,20 +2799,15 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.ts">
+    <entry file="file://$PROJECT_DIR$/week2/oj-server/package-lock.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="12" column="40" selection-start-line="12" selection-start-column="40" selection-end-line="12" selection-end-column="40" />
-          <folding>
-            <element signature="e#0#48#0" expanded="true" />
-          </folding>
-        </state>
+        <state relative-caret-position="-4230" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.html">
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        <state>
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
@@ -2780,6 +2815,123 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
           <caret line="4" column="2" selection-start-line="4" selection-start-column="2" selection-end-line="4" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/mock-problems.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="495">
+          <caret line="33" column="2" lean-forward="true" selection-start-line="1" selection-start-column="13" selection-end-line="33" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/@angular/http/src/headers.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="36" column="4" selection-start-line="36" selection-start-column="4" selection-end-line="36" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="15" selection-start-line="9" selection-start-column="15" selection-end-line="9" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/@angular/http/src/base_request_options.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="415">
+          <caret line="69" column="30" selection-start-line="69" selection-start-column="30" selection-end-line="69" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/@angular/http/src/http.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1305">
+          <caret line="91" column="4" selection-start-line="91" selection-start-column="4" selection-end-line="91" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-server/package.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/package.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/@angular/http/src/interfaces.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="46" column="17" selection-start-line="46" selection-start-column="17" selection-end-line="46" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-server/routes/rest.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="1" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/@angular/common/http/src/client.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="800" column="4" selection-start-line="800" selection-start-column="4" selection-end-line="800" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/rxjs/src/internal/Observable.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="329" column="2" selection-start-line="329" selection-start-column="2" selection-end-line="329" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/typescript/lib/lib.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="1335" column="4" selection-start-line="1335" selection-start-column="4" selection-end-line="1335" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/typescript/lib/lib.dom.d.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="2117" column="26" lean-forward="true" selection-start-line="2117" selection-start-column="26" selection-end-line="2117" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/node_modules/rxjs/src/internal/BehaviorSubject.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="11" column="2" selection-start-line="11" selection-start-column="2" selection-end-line="11" selection-end-column="2" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-server/models/problemModel.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="18" selection-end-line="10" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/navbar/navbar.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/services/data.service.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="367">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+          <folding>
+            <element signature="e#0#41#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -2794,22 +2946,97 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/navbar/navbar.component.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="17" selection-start-line="9" selection-start-column="17" selection-end-line="9" selection-end-column="17" />
+        <state relative-caret-position="75">
+          <caret line="5" column="19" selection-start-line="5" selection-start-column="19" selection-end-line="5" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/app.component.html">
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/services/data.service.spec.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <folding>
+            <element signature="e#0#48#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-server/services/problemService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="32" column="9" selection-start-line="32" selection-start-column="9" selection-end-line="32" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/angular.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="34" column="27" lean-forward="true" selection-start-line="34" selection-start-column="27" selection-end-line="34" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-server/routes/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="24" lean-forward="true" selection-start-line="7" selection-start-column="24" selection-end-line="7" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-server/server.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="19" lean-forward="true" selection-start-line="10" selection-start-column="19" selection-end-line="10" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="11" column="13" lean-forward="true" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="5" column="26" lean-forward="true" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/problem-detail/problem-detail.component.ts">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="29" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.css">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/problem-list/problem-list.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="15">
-          <caret line="1" column="12" selection-start-line="1" selection-start-column="12" selection-end-line="1" selection-end-column="12" />
+          <caret line="1" column="3" selection-start-line="1" selection-start-column="3" selection-end-line="1" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/new-problem/new-problem.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/components/navbar/navbar.component.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="33" column="37" selection-start-line="33" selection-start-column="37" selection-end-line="33" selection-end-column="37" />
+        <state relative-caret-position="75">
+          <caret line="14" column="38" selection-end-line="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/week2/oj-client/src/app/app.component.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" lean-forward="true" selection-start-line="4" selection-end-line="4" />
         </state>
       </provider>
     </entry>
