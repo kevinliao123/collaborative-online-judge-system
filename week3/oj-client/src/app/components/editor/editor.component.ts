@@ -16,6 +16,7 @@ export class EditorComponent implements OnInit {
   language: string = 'Java';
 
   sessionId: string;
+  output = '';
 
   defaultContent = {
     'Java': `public class Example {
@@ -36,6 +37,7 @@ int main() {
 
 
   constructor(@Inject('collaboration') private collaboration,
+              @Inject('data') private data,
               private route:ActivatedRoute) {
   }
 
@@ -81,10 +83,21 @@ int main() {
   resetEditor():void {
     this.editor.getSession().setMode('ace/mode/' + this.language.toLowerCase());
     this.editor.insert(this.defaultContent[this.language]);
+    this.output = '';
   }
 
-  submit():void {
-    let userCode = this.editor.getValue();
-    console.log(userCode)
+  submit() {
+    this.output = '';
+
+    const userCodes = this.editor.getValue();
+    //console.log(userCode);
+
+    const codes = {
+      userCodes: userCodes,
+      lang: this.language.toLocaleLowerCase()
+    };
+
+    this.data.buildAndRun(codes)
+      .then(res => this.output = res.text);
   }
 }
