@@ -4,7 +4,7 @@ var problemService = require("../services/problemService");
 var bodyParser = require('body-parser')
 var jsonParser = bodyParser.json();
 
-const nodeRestClient = require('node-rest-client').client;
+const nodeRestClient = require('node-rest-client').Client;
 const restClient = new nodeRestClient();
 const EXECUTOR_SERVER_URL = 'http://localhost:5000/build_and_run';
 
