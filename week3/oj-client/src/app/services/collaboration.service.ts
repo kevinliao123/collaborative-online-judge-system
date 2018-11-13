@@ -22,7 +22,7 @@ export class CollaborationService {
     this.collaborationSocket.on('change', (delta: string) => {
       console.log('collaboration: editor changes by ' + delta);
       delta = JSON.parse(delta);
-      editor.lastApplicatedChange = delta;
+      editor.lastAppliedChange = delta;
       editor.getSession().getDocument().applyDeltas([delta]);
     });
 
