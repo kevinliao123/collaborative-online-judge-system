@@ -26,5 +26,10 @@ def build_and_run():
     return jsonify(result)
 
 if __name__ == "__main__":
+    # allow multiple ports to be added to ngixn and ngixn can be the load balancer
+    # refer to project1/week4/codelab1
+    import sys
+    port = int(sys.argv[1])
     eu.load_image()
-    app.run(debug=True)
+#    app.run(debug=True)
+    app.run(port=port)
