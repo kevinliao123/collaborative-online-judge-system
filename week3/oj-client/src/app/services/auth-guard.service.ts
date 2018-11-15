@@ -8,8 +8,8 @@ export class AuthGuardService implements CanActivate {
 
   constructor(@Inject('auth') private auth, private router : Router) { }
 
-  canActivate():boolean {
-    if(this.auth.authenticated()) {
+  canActivate(): boolean {
+    if (this.auth.isAuthenticated()) {
       return true;
     } else {
       // redirect to home page if not logged in

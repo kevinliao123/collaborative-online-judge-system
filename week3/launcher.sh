@@ -8,7 +8,8 @@ nodemon server.js &
 cd ../oj-client
 npm install
 ng build --watch &
-
+cd ../executor
+python executor_server.py 5000
 
 echo "=================================================="
 read -p "PRESS [ENTER] TO TERMINATE PROCESSES." PRESSKEY

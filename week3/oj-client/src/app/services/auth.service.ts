@@ -66,7 +66,7 @@ export class AuthService {
     return new Date().getTime() < expiresAt;
   }
 
-  public getProfile(cb) {
+  public getProfile(cb) : void {
     const accessToken = localStorage.getItem('access_token');
     if (!accessToken) {
       throw new Error('Access Token must exist to fetch profile');
