@@ -11,16 +11,8 @@ export class ProfileComponent implements OnInit {
   constructor(@Inject('auth') private auth) { }
 
   ngOnInit() {
-    // if (this.auth.userProfile) {
-    //   this.profile = this.auth.userProfile;
-    // } else {
-    //   this.auth.getProfile((err, profile) => {
-    //     this.profile = profile;
-    //   });
-    // }
-    console.log("ProfileComponent" );
     this.auth.getProfile((err, profile) => {
-      this.email = profile.email;
+      this.email = profile.name;
       this.username = profile.nickname;
       console.log("profile  ====>" + JSON.stringify(profile));
       console.log("profile email ====>" + profile.name );
