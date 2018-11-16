@@ -20,20 +20,17 @@ export class CollaborationService {
     this.collaborationSocket = io(window.location.origin, {query: 'sessionId=' + sessionId});
 
     this.collaborationSocket.on('change', (delta: string) => {
-      console.log('collaboration: editor changes by ' + delta);
       delta = JSON.parse(delta);
       editor.lastAppliedChange = delta;
       editor.getSession().getDocument().applyDeltas([delta]);
     });
 
     this.collaborationSocket.on("cursorMove", (cursor) => {
-      console.log("cursor move: " + cursor);
       let session = editor.getSession();
       cursor = JSON.parse(cursor);
       let x = cursor['row'];
       let y = cursor['column'];
       let changeClientId = cursor['socketId'];
-      console.log(x + ' ' + y + ' ' + changeClientId);
 
       if (changeClientId in this.clientsInfo) {
           session.removeMarker(this.clientsInfo[changeClientId]['marker']);

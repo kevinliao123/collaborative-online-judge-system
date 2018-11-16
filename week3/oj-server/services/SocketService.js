@@ -60,7 +60,6 @@ module.exports = function(io) {
 
         // listening to cursor move
         socket.on('cursorMove', cursor => {
-            console.log('editorSocketService - cursor move : ' + cursor);
             cursor = JSON.parse(cursor);
             cursor['socketId'] = socket.id;
             eventHandler(socket.id, 'cursorMove', JSON.stringify(cursor));
