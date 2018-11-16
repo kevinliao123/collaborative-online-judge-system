@@ -16,7 +16,7 @@ export class AuthService {
     clientID: 'MbQ_FU7lXHVzet16qTgcfCk6Z9vwB2Kt',
     domain: 'kevinonlinejudge.auth0.com',
     responseType: 'token id_token',
-    redirectUri: 'http://localhost:3000/callback',
+    redirectUri: 'http://54.89.210.16:3000/',
     scope: 'openid profile'
   });
 
